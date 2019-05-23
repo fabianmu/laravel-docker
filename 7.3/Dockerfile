@@ -7,7 +7,6 @@ RUN apk add --no-cache --virtual .build-deps \
     imagemagick-dev \
     libtool \
     libxml2-dev \
-    postgresql-dev \
     sqlite-dev
 
 # Install production dependencies
@@ -26,7 +25,6 @@ RUN apk add --no-cache \
     nodejs-npm \
     yarn \
     openssh-client \
-    postgresql-libs \
     rsync \
     zlib-dev \
     libzip-dev
